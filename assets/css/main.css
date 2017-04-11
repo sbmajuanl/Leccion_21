@@ -2,3 +2,73 @@
 .text-uppercase {
   text-transform: uppercase;
 }
+
+.link{
+  font-weight: 700;/*Muestra el texto en negrita*/
+  padding: 21px;
+  display: inline-block;
+}
+.logo{
+  float:right;/*Logo a la derecha*/
+}
+header{
+  position: fixed;/*Hace que nuestro menu este fijo*/
+  background: pink;
+  width: 100%;
+  top:0;
+}
+.menu{
+  padding: 14px 70px;
+  overflow:auto;/*Para que elcontenido caba dentro del elemento*/
+}
+#home{
+  background-image: url(../img/bg-home.jpg);/*Nuestra imagen de portada*/
+  background-position: center;/*Posicionar nuestra imagen en el centro*/
+  background-repeat: no-repeat;/*No repetir nuestra imagen de fondo*/
+  background-size: cover;/*cubre todo el tamaño del contenedor*/
+  height:554px;/*Altura de nuestro home*/
+  text-align: center;/*Alineamiiento al centro el texto*/
+  margin-top:80px;/*Darle un margen en la parte de arriba*/
+}
+
+#home .container{
+  color:white;/*Color blanco a los texto*/
+  padding:70px;/*Relleno de 70px en todos los lados (top,rigth,bottom y left)*/
+}
+#services{
+  background-color: #F17C72;/*Color de fondo*/
+  text-align:center;/*Alineacion al centro*/
+  color: #fff;/*Color del texto en blanco*/
+  padding: 70px 7px;
+}
+
+.text-home{
+  font-size: 53px;
+}
+.btn-home{
+  background: #2ECC71;/*COLOR DE FONDO*/
+  color: #fff;
+  padding: 11px 20px;
+  border-radius: 1px;
+  font-weight: 500;
+  text-transform:uppercase;
+  margin-top:63px;
+  display: inline-block;
+  font-size: 14px;
+}
+.box-services{
+  display: inline-block;/**Para que las cajas tengan un ancho de 30%*/
+  width:30%;
+  margin-top: 63px;/*margen de la parte de arriba:63px*/
+}
+.text-services{
+  font-size: 35px;/*Tamaño de la letra*/
+  letter-spacing: 2px;/*Espacio entre cada letra*/
+}
+footer{
+  text-align: center;
+  height: 60px;
+  background: #373b47;
+  color:white;
+  padding-top: 7px;
+}
