@@ -1,5 +1,5 @@
   var contenedor=document.getElementById("contenedor");
-  for (var i = 1; i <= 6; i++) {
+  for (var i = 1; i <= 12; i++) {
   var div=document.createElement("div");
   var img=document.createElement("img");
   var titulo=document.createElement("titulo");
